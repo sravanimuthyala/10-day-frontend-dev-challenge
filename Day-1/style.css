@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #D7E1EF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    background-color: #FCFCFC;
+    display: flex;
+    border-radius: 8px;
+    padding: 20px;
+}
+.content{
+    text-align: center;
+    width: 250px;
+    margin: 30px;
+}
+h2{
+font-size: 1.7em;
+color:#252C46;
+}
+span{
+    font-size: 1.5em;
+    color:rgb(90, 86, 86);
+}
+.card{
+    background-color:  #F1D6FC;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding:30px;
+    margin: 0px;
+    }
