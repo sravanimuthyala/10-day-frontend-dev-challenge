@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    Background-Color: #ECE5DD;
+    margin: 20px 20px;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #25D366;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    font-size: 40px;
+}
+
+button {
+    background-color: #25D366;
+    border-radius: 20px;
+    padding: 9px 24px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+button i {
+    padding-left: 7px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.container {
+    background-color: white;
+    inline-size: 55%;
+    block-size: 60vh;
+    border-radius: 15px;
+    padding: 30px 30px;
+    display: flex;
+    border: 1px solid black;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    inline-size: 75%;
+    padding: 26px 22px;
+}
+
+.left>span:nth-child(1) {
+    color: #252C46;
+    font-size: 1.7em;
+    padding: 12px 0px;
+}
+
+.left>span:nth-child(2) {
+    font-size: 18px;
+    padding-bottom: 28px;
+}
+
+ol li {
+    font-size: 18px;
+    padding: 7px 0px;
+}
+
+.last {
+    margin-bottom: 25px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.img i {
+    position: absolute;
+}
+
+label {
+    color: rgb(90, 86, 86);
+}
+
+a {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+    border-bottom: 3px solid #25D366;
+}
+
+input[type=checkbox] {
+    accent-color: #25D366;
+}
