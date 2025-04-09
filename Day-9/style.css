@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 18px;
+}
+
+.container {
+    background-color: #ffffff;
+    inline-size: 750px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+    padding: 15px;
+}
+
+.container :nth-child(n+1) {
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.text {
+    width: 650px;
+    height: 50px;
+    border: 1px solid rgb(197, 190, 190);
+    display: flex;
+    align-items: center;
+}
+
+.text input {
+    border: 0;
+    flex: 1;
+    outline: none;
+    font-size: 18px;
+}
+
+input[type=text] {
+    border: none;
+    flex: 1;
+    font-size: 18px;
+    block-size: 22px;
+}
+
+#btn {
+    padding: 15.7px;
+    margin-right: auto;
+}
+
+del {
+    color: #999;
+}
+
+form button,
+.btns :first-child {
+    background-color: #4a90e2;
+    color: white;
+    border: 1px solid #4a90e2;
+}
+
+label {
+    display: inline-block;
+    width: 500px;
+}
+
+.container :nth-child(n+4) {
+    border-bottom: 1px solid #eee;
+}
+
+.btns :nth-child(n+2) {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+}
+
+.btns {
+    text-align: center;
+}
+
+.btns button {
+    padding: 12px 15px;
+    border-radius: 5px;
+}
+
+.del button {
+    padding: 12px 15px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
