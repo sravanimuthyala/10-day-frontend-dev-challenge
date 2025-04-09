@@ -73,7 +73,7 @@ label {
     width: 500px;
 }
 
-.container :nth-child(n+4) {
+.container>.first,.second,.third{
     border-bottom: 1px solid #eee;
 }
 
